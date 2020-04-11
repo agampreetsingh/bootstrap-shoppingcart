@@ -13,6 +13,9 @@
 
     <!-- Generic CSS-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Quarantine Spree</title>
   </head>
   <body>
@@ -24,6 +27,14 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
+
+          <button class = "btn btn-dark">
+            <a class="material-icons md-light cart-icon">
+                shopping_cart
+            </a>
+            <span class="badge badge-primary align-top">8</span>
+          </button>
+          
       </nav>
 
 
@@ -32,11 +43,17 @@
         <div class="sidenav bg-secondary">
 
         </div>
-
+        
         <!--Page content-->
         <div class = "container">
             <br>
-
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Hygeine Items</li>
+                </ol>
+              </nav>
+              <br>
             <div class = "row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
                 <div class = "col ">
                     <div class="card isolated-card">
