@@ -1,3 +1,6 @@
+// This is the product list.Initialized as a variable. We use this js file in index.html which makes this js file available on the page. 
+
+// Variable name: productList. It as all the data for the products. This is an array of objects. Each object has id, name, price, Description and productImage
 var productList = [
     {   
         id:"Product_1",
